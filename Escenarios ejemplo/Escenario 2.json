@@ -1,0 +1,17 @@
+{
+    "recorrido": {
+        "inicio": {"x": 0, "y": 0},
+        "fin": {"x": 15, "y": 15},
+        "puntos_intermedios": 6
+    },
+    "tamano": {"anchura": 16, "altura": 16},
+    "obstaculos": [
+        {"x": 0, "y": 3, "anchura": 8, "altura": 2},
+        {"x": 10, "y": 3, "anchura": 5, "altura": 2},
+        {"x": 0, "y": 7, "anchura": 3, "altura": 2},
+        {"x": 5, "y": 7, "anchura": 6, "altura": 2},
+        {"x": 13, "y": 7, "anchura": 3, "altura": 2},
+        {"x": 1, "y": 11, "anchura": 7, "altura": 2},
+        {"x": 10, "y": 11, "anchura": 6, "altura": 2}
+    ]
+}

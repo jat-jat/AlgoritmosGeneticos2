@@ -98,8 +98,8 @@ class Ventana(QMainWindow):
             plt.plot(ejecuciones, generaciones_por_ejecucion)
             # Se agregan las etiquetas de los ejes y el título.
             plt.xlabel('Ejecución')
-            plt.ylabel('Generaciones')
-            plt.title('Prueba de rendimiento')
+            plt.ylabel('Iteraciones/Generaciones')
+            plt.title('Prueba de rendimiento - Promedio: {!s}'.format(AlgGen.np.mean(generaciones_por_ejecucion)))
             # Se muestra la gráfica.
             plt.grid(True)
             plt.show()

@@ -1,0 +1,11 @@
+Esta aplicación usa las siguientes librerías externas:
+- PyQt5
+- matplotlib
+- scipy
+- numpy
+
+Para instalarlas, ejecute los siguientes comandos en el símbolo de sistema:
+pip install PyQt5
+pip install matplotlib
+pip install scipy
+pip install numpy

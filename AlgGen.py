@@ -401,8 +401,8 @@ class PoblacionAlgGen:
         # Se crea el arraglo con los valores del eje x.
         indices_iteraciones = np.arange(0, i + 1)
         # Se grafican los valores máximos, mínimos y los promedios.
-        plt.plot(indices_iteraciones, maximos, lw=2, label='Mejor caso')
-        plt.plot(indices_iteraciones, minimos, lw=2, label='Peor caso')
+        plt.plot(indices_iteraciones, maximos, lw=2, label='Peor caso')
+        plt.plot(indices_iteraciones, minimos, lw=2, label='Mejor caso')
         plt.plot(indices_iteraciones, promedios, lw=2, label='Promedio')
         plt.legend()
         # Se agregan las etiquetas de los ejes y el título.

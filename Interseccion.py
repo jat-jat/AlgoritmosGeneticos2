@@ -2,10 +2,6 @@
 Módulo que contiene funciones para detectar si dos segmentos se intersectan.
 Fuente: https://stackoverflow.com/a/18524383
 """
-import matplotlib.pyplot as plt
-import matplotlib.patches as patches
-import matplotlib.ticker as plticker
-from matplotlib.collections import PatchCollection
 
 def side(a,b,c):
     """ Returns a position of the point c relative to the line going through a and b
